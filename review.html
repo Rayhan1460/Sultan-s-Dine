@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellcome to Sultan Dine's</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="rayhan.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Sultan's Dine</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallary.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    
+        <section class="review-section" style="margin-top: 50px;">
+            <h2>Customer Reviews</h2><br>
+            <div class="review-container">
+                <div class="review-card active">
+                    <p>"The best biryani I have ever had! The flavors are just perfect."</p>
+                    <h3>Rahim Uddin</h3>
+                    <span>⭐⭐⭐⭐</span>
+                </div>
+                <div class="review-card">
+                    <p>"Amazing experience! The ambiance and food quality were top-notch."</p>
+                    <h3>Ayesha Karim</h3>
+                    <span>⭐⭐⭐⭐⭐</span>
+                </div>
+                <div class="review-card">
+                    <p>"Great service and delicious food. Highly recommended!"</p>
+                    <h3>Farhan Ahmed</h3>
+                    <span>⭐⭐⭐⭐</span>
+                </div>
+                <div class="review-card">
+                    <p>"Super experience! The ambiance and food quality were top-notch."</p>
+                    <h3>Shihabul Alom</h3>
+                    <span>⭐⭐⭐⭐⭐</span>
+                </div>
+                <div class="review-card">
+                    <p>"Nice experience! The ambiance and food quality were top-notch."</p>
+                    <h3>Junayed Ahmed</h3>
+                    <span>⭐⭐⭐⭐</span>
+                </div>
+            </div><br>
+            <h3>Leave a Review</h3><br>
+    
+            <button class="prev-btn" onclick="prevReview()">❮</button>
+            <button class="next-btn" onclick="nextReview()">❯</button>
+        </section>
+        <form class="review-form">
+            <textarea placeholder="Write your review....." required=""></textarea>
+        <div>
+            <button type="submit">Submit Review</button>
+        </div>
+    </form>
+    
+        <script src="script.js"></script>    
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>Sultan's Dine</h2>
+                    <p>Experience the best traditional flavors with authentic biryani and mouth-watering dishes.</p>
+                </div>
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h2>Contact Us</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> Asulia, Dhaka, Bangladesh</p>
+                    <p><i class="fas fa-phone"></i> +8801303575086</p>
+                    <p><i class="fas fa-envelope"></i> info@sultandine.com</p>
+                </div>
+                <div class="footer-section social">
+                    <h2>Follow Us</h2><br>
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></i></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></i></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></i></a>
+                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+            </div>
+            <hr>
+            <p class="footer-bottom">&copy; 2025 Sultan Dine.All Rights Reserved || Powered by RAYHAN PARVAZ.</p>
+        </div>
+    </footer>
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+</body>
+</html>
